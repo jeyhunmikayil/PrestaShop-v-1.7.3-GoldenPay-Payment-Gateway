@@ -1,5 +1,4 @@
-<?php
-/*
+{*
 * 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
@@ -22,11 +21,11 @@
 *  @copyright  2007-2015 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
-*/
-header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
-header('Last-Modified: '.gmdate('D, d M Y H:i:s').' GMT');
-header('Cache-Control: no-store, no-cache, must-revalidate');
-header('Cache-Control: post-check=0, pre-check=0', false);
-header('Pragma: no-cache');
-header('Location: ../../../');
-exit;
+*}
+
+<div class="alert alert-info">
+<img src="../modules/paymentgoldenpay/visamaster.png" style="float:left; margin-right:15px;" width="86" height="49">
+<p><strong>{l s="This module allows you to accept payments by check." d='Modules.PaymentGoldenpay.Admin'}</strong></p>
+<p>{l s="If the client chooses this payment method, the order status will change to 'Waiting for payment'." d='Modules.PaymentGoldenpay.Admin'}</p>
+<p>{l s="You will need to manually confirm the order as soon as you receive a check." d='Modules.PaymentGoldenpay.Admin'}</p>
+</div>
